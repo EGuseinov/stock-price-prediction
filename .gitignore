@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ortam
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Staj dokumanlari (GitHub'a yuklenmeyecek)
+*.docx
+*.pdf
+StajBslangıcNotları.docx
+
+# Buyuk model ve veri dosyalari (opsiyonel: bunlari yuklemek istemiyorsan yorumu kaldir)
+# data/tensors.pt
+# data/*.pkl
+# data/model_*.pt
